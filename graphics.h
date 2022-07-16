@@ -9,6 +9,5 @@
 #define HT 600
 using namespace std;
 
-class Expression{};
 void reshape(int w, int h);
 void display();
