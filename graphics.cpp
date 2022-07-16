@@ -1,17 +1,4 @@
-#include <iostream>
-#include "math.h"
-#define WD 800
-#define HT 600
-#if defined(linux) || defined(_WIN32)
-#include <GL/glut.h>
-#else
-#include <GLUT/GLUT.h>
-#endif
-
-using namespace std;
-
-
-
+#include "graphics.h"
 
 float t_c = HT*1/20;
 class Expression{
