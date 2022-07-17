@@ -1,5 +1,5 @@
 #include <iostream>
-#include "math.h"
+#include <cmath>
 #if defined(linux) || defined(_WIN32)
 #include <GL/glut.h>
 #else

@@ -1,5 +1,4 @@
 #include "graphics.h"
-
 float t_c = HT*1/20;
 class Expression{
 public:
