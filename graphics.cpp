@@ -1,5 +1,7 @@
+#ifndef included
+#define included
 #include "graphics.h"
-float t_c = HT * 1 / 20;  // за единицу считаем 1/20 экрана HT
+#endif
 
 void reshape(int w, int h) {  // служебная функция
     glViewport(0, 0, w, h);
